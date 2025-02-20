@@ -52,7 +52,7 @@ const Portfolio = () => {
         <p className="text-[15px]" >Check out some of my works</p>
       </div>
 
-      <div className="mt-18 grid grid-cols-2 max-sm:mt-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 w-full   " >
+      <div className="mt-18 grid grid-cols-2 max-sm:mt-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 w-full " >
       {links.map(({id,name,src,image})=>(
         <div className="flex flex-col items-center mb-10  mr-20  bg-gray-800 cursor-pointer  p-2 rounded-lg w-30" >
         <a className="" key={id} href={src} target="_blank" rel="noopener noreferrer">
