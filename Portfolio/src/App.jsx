@@ -8,15 +8,10 @@ import Experience from './Pages/Experience'
 import Portfolio from './Pages/Portfolio'
 import { Routes, Route,Navigate } from "react-router-dom";
 
-
-
-
-
-
 function App() {
   return (
     <>
-    <div className="flex h-screen flex-row  bg-black    max-sm:bg-black " >
+    <div className="flex h-screen flex-row  bg-gradient-to-b from-black to-gray-800 max-sm:bg-black " >
       <Navbar/>
       <div className="max-sm:h-full w-full max-sm:flex-grow overflow-scroll  " >
       
