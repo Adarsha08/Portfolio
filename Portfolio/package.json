@@ -3,11 +3,16 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://<Adarsha Gautam>.github.io/<Portfolio>",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "react-scripts start",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
+    
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
